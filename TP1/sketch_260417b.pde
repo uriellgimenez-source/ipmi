@@ -1,0 +1,96 @@
+PImage foto;
+
+void setup (){
+  
+size(800,400);
+foto=loadImage("pendientes de perlas.jpg");}
+
+void draw(){
+  
+  noStroke();
+  
+  background(7);
+  image (foto,0,0,400,400);
+  
+  //cara//
+  
+  fill(#D1BB81);
+  ellipse(570,147,145,200);
+  
+  fill(#D1BB81);
+  ellipse(628,180,50,50);
+  
+  fill(255);
+  ellipse(638,200,10,10);
+  
+   fill(255);
+  ellipse(510,155,25,25);
+  
+   fill(255);
+  ellipse(560,157,25,25);
+  
+  fill(7);
+  ellipse(565,157,15,15);
+  
+   fill(7);
+  ellipse(515,155,15,15);
+  
+  fill(#BC132A);
+  ellipse(548,212,40,15);
+  
+   fill(#D1BB81);
+  rect(572,197,60,70);
+   
+  //pelo//
+  fill(#FAC25B);
+  ellipse(657,70,100,100);
+  
+  fill(#FAC25B);
+  ellipse(627,80,170,100);
+  
+  //trapo azul//
+  fill(#215AFF);
+  rect(502,49,140,67);
+  
+  fill(#042993);
+  rect(610,69,70,107);
+  
+  fill(#042993);
+  ellipse(635,97,110,95);
+  
+  
+  //ropa//
+  fill(255);
+  ellipse(645,310,200,140);
+  
+   fill(#A57B2B);
+  ellipse(645,340,200,140);
+  
+    fill(#A57B2B);
+  ellipse(645,320,200,140);
+  
+  rect(540,337,200,170);
+  
+  fill(#815D26);
+   rect(620,250,110,200);
+   
+    fill(7);
+   rect(690,250,110,200);
+   
+   fill(#A57B2B);
+   triangle(595,319,600,568,319,568);
+
+   //pelo2//
+   
+   fill(#FAC25B);
+  rect(670,58,40,210);
+  
+   fill(#215AFF);
+  rect(670,258,40,35);
+  
+  //borrar despues//
+  textSize(30);
+  text(mouseX + " - " + mouseY, mouseX,mouseY);
+ push();
+  pop();
+}
