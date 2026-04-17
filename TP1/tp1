@@ -15,9 +15,7 @@ void draw(){
   
   background(7);
   image (foto,0,0,400,400);
-  
-  //cara//
-  
+
   fill(#D1BB81);
   ellipse(570,147,145,200);
   
@@ -44,15 +42,13 @@ void draw(){
   
    fill(#D1BB81);
   rect(572,197,60,70);
-   
-  //pelo//
+
   fill(#FAC25B);
   ellipse(657,70,100,100);
   
   fill(#FAC25B);
   ellipse(627,80,170,100);
-  
-  //trapo azul//
+
   fill(#215AFF);
   rect(502,49,140,67);
   
@@ -62,8 +58,6 @@ void draw(){
   fill(#042993);
   ellipse(635,97,110,95);
   
-  
-  //ropa//
   fill(255);
   ellipse(645,310,200,140);
   
@@ -84,17 +78,10 @@ void draw(){
    fill(#A57B2B);
    triangle(595,319,600,568,319,568);
 
-   //pelo2//
-   
    fill(#FAC25B);
   rect(670,58,40,210);
   
    fill(#215AFF);
   rect(670,258,40,35);
-  
-  //borrar despues//
-  textSize(30);
-  text(mouseX + " - " + mouseY, mouseX,mouseY);
- push();
-  pop();
+ 
 }
