@@ -1,5 +1,9 @@
 PImage foto;
 
+// Uriel Gimenez 
+118865/1
+18/03/2026 //
+
 void setup (){
   
 size(800,400);
